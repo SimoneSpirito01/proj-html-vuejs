@@ -46,9 +46,10 @@ export default {
             list-style: none;
             display: flex;
             align-items: center;
+            margin: 0;
 
             li {
-                font-size: 10px;
+                font-size: 13px;
                 font-weight: bold;
                 text-transform: uppercase;
                 letter-spacing: 3px;
