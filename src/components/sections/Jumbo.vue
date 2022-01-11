@@ -1,48 +1,4 @@
 <template>
-    <!-- <div class="jumbo">
-        <div class="skip">
-            <div>
-                <i class="fas fa-chevron-left"></i>
-            </div>
-        </div>
-        <div class="content">
-            <div class="left">
-                <h1>Devotion that never <span>ends</span></h1>
-                <p>Neque portto quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam euis modi.</p>
-            </div>
-            <div class="right">
-                <div class="image girl">
-                    <img src="../../assets/img/h-2-slider-img-15.png" alt="">
-                    <div class="image green">
-                        <img src="../../assets/img/h-2-slider-img-13.png" alt="">
-                    </div>
-                    <div class="image pink-l">
-                        <img src="../../assets/img/short-slider-rev-1-img-2.png" alt="">
-                    </div>
-                    <div class="image brown">
-                        <img src="../../assets/img/h-2-slider-img-12.png" alt="">
-                    </div>
-                </div>
-                <div class="image man">
-                    <img src="../../assets/img/h-2-slider-img-16.png" alt="">
-                    <div class="image multi">
-                        <img src="../../assets/img/h-2-slider-img-17.png" alt="">
-                    </div>
-                    <div class="image pink-r">
-                        <img src="../../assets/img/short-slider-rev-1-img-6.png" alt="">
-                    </div>
-                    <div class="image violet">
-                        <img src="../../assets/img/h-2-slider-img-14.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="skip">
-            <div>
-                <i class="fas fa-chevron-right"></i>
-            </div>
-        </div>
-    </div> -->
     <div id="carouselExampleIndicators" class="carousel slide jumbo" data-bs-ride="carousel">
         <div class="carousel-indicators my_indicators">
             <div class="my_button">
@@ -75,14 +31,14 @@
                 </div>
             </div>
         </div>
-        <button class="carousel-control-prev justify-content-start my_control ms-4" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button class="carousel-control-prev justify-content-start my_control ms-5" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
             <div class="skip">
                 <div>
                     <i class="fas fa-chevron-left left"></i>
                 </div>
             </div>
         </button>
-        <button class="carousel-control-next justify-content-end my_control me-4" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button class="carousel-control-next justify-content-end my_control me-5" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
             <div class="skip">
                 <div>
                     <i class="fas fa-chevron-right right"></i>
