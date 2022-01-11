@@ -118,23 +118,27 @@ export default {
         height: 600px;
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        margin-top: 30px;
 
-        .my_button {
-            display: flex;
-            align-items: center;
+        .my_indicators {
+            margin-bottom: 0;
 
-            button {
-                width: 8px;
-                height: 8px;
-                border-radius: 50%;
-                margin: 0 10px;
-                background-color: #e1c0b0;
-                opacity: 1;
+            .my_button {
+                display: flex;
+                align-items: center;
 
-                &.active {
-                    width: 11px;
-                    height: 11px;
+                button {
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    margin: 0 10px;
+                    background-color: #e1c0b0;
+                    opacity: 1;
+
+                    &.active {
+                        width: 11px;
+                        height: 11px;
+                    }
                 }
             }
         }

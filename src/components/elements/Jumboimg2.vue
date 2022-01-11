@@ -37,7 +37,7 @@ export default {
             position: relative;
             
             > img {
-                width: 650px;
+                width: 800px;
             }
         }
 

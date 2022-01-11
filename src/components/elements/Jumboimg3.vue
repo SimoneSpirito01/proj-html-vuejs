@@ -2,7 +2,7 @@
 
     <div class="right">
         <div class="image girl">
-            <img src="../../assets/img/h-2-slider-img-15.png" alt="">
+            <img src="../../assets/img/h-2-slider-img-15.png" alt="" class="my_background">
             <div class="image green">
                 <img src="../../assets/img/h-2-slider-img-13.png" alt="">
             </div>
@@ -14,7 +14,7 @@
             </div>
         </div>
         <div class="image man">
-            <img src="../../assets/img/h-2-slider-img-16.png" alt="">
+            <img src="../../assets/img/h-2-slider-img-16.png" alt="" class="my_background">
             <div class="image multi">
                 <img src="../../assets/img/h-2-slider-img-17.png" alt="">
             </div>
@@ -39,12 +39,13 @@ export default {
 
     .right {
         display: flex;
+        margin-top: 70px;
 
         > * {
             position: relative;
             
-            > img {
-                object-fit: cover;
+            > .my_background {
+                width: 380px;
             }
         }
             

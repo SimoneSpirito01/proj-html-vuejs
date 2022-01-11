@@ -2,7 +2,9 @@
     <div class="left">
         <h1>{{title}} <span>{{lastWord}}</span></h1>
         <p>{{text}}</p>
-        <button>Read more</button>
+        <div class="my_btn">
+            <button>Read more</button>
+        </div>
     </div>
 </template>
 
@@ -22,9 +24,12 @@ export default {
     .left {
         width: 30%;
         margin-right: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 
         h1 {
-            font-size: 75px;
+            font-size: 85px;
             font-weight: 400;
 
             span {
@@ -35,9 +40,10 @@ export default {
         }
 
         p {
+            font-size: 18px;
             margin: 20px 0 30px;
             padding: 0;
-            color: #a6a6a6;
+            color: #c7c7c7;
         }
 
         button {

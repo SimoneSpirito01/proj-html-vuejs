@@ -48,7 +48,7 @@ export default {
             position: relative;
             
             > img {
-                width: 500px;
+                width: 550px;
             }
         }
 
