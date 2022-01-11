@@ -30,7 +30,7 @@ export default {
 
         h1 {
             font-size: 85px;
-            font-weight: 400;
+            font-weight: 300;
 
             span {
                 font-weight: bold;
@@ -41,9 +41,10 @@ export default {
 
         p {
             font-size: 18px;
+            font-weight: 200;
             margin: 20px 0 30px;
             padding: 0;
-            color: #c7c7c7;
+            color: rgb(109, 109, 109);
         }
 
         button {
