@@ -76,6 +76,11 @@ export default {
         justify-content: space-between;
         margin-top: 30px;
 
+        @media (max-width: 1500px) {
+            margin-top: 70px;
+            height: 450px;
+        }
+
         .my_indicators {
             margin-bottom: 0;
 
@@ -101,12 +106,15 @@ export default {
 
         .my_inner {
             overflow: initial;
-            max-height: 430px;
+            margin: 0 auto;
+            width: 90%;
         }
 
         .my_control {
-            width: 10%;
+            width: initial;
             opacity: 1;
+            justify-content: center;
+
         }
 
         .skip {
@@ -129,15 +137,16 @@ export default {
                     margin-left: 2px;
                 }
             }
-            
         }
 
         .content {
             display: flex;
             justify-content: center;
+            align-items: center;
 
-            
-
+            @media (max-width: 1500px) {
+                align-items: flex-end;
+            }
 
         }
     }

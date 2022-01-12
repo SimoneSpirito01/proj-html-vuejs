@@ -4,6 +4,7 @@
         <Books/>
         <Process/>
         <Message/>
+        <Events/>
     </main>
 </template>
 
@@ -12,6 +13,7 @@ import Jumbo from '../sections/Jumbo.vue'
 import Books from '../sections/Books.vue'
 import Process from '../sections/Process.vue'
 import Message from '../sections/Message.vue'
+import Events from '../sections/Events.vue'
 
 export default {
     name: 'Main',
@@ -19,7 +21,8 @@ export default {
         Jumbo,
         Books,
         Process,
-        Message
+        Message,
+        Events
     }
 }
 </script>

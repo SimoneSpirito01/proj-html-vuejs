@@ -22,15 +22,25 @@ export default {
 <style lang="scss" scoped>
 
     .left {
-        width: 30%;
         margin-right: 100px;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        width: 35%;
+
+        @media (max-width: 1500px) {
+            width: 45%;
+            margin-right: 20px;;
+            padding-right: 70px;
+        }
 
         h1 {
             font-size: 85px;
             font-weight: 300;
+
+            @media (max-width: 1500px) {
+                font-size: 65px;
+            }
 
             span {
                 font-weight: bold;

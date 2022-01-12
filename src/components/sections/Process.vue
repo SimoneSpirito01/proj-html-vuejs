@@ -1,11 +1,13 @@
 <template>
     <section>
-        <h2>Working <span>process</span></h2>
-        <div class="process">
-            <div v-for="(circle, i) in circles" :key="i">
-                <Dot :circle="circle"/>
+        <div class="my_container">
+            <h2>Working <span>process</span></h2>
+            <div class="process">
+                <div v-for="(circle, i) in circles" :key="i">
+                    <Dot :circle="circle"/>
+                </div>
+                <div class="my_bg"></div>
             </div>
-            <div class="my_bg"></div>
         </div>
     </section>
 </template>
@@ -53,8 +55,10 @@ export default {
 
 <style lang="scss" scoped>
 
-    section {
-        padding: 120px 140px;
+section {
+    padding: 120px 0;
+
+    .my_container {
 
         h2 {
             font-size: 60px;
@@ -90,5 +94,7 @@ export default {
             }
         }
     }
+
+}
 
 </style>

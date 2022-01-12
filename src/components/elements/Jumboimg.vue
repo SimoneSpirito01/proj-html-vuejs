@@ -1,7 +1,7 @@
 <template>
     <div class="right">
         <div class="image bench">
-            <img src="../../assets/img/short-slider-rev-1-img-3.png" alt="">
+            <img src="../../assets/img/short-slider-rev-1-img-3.png" alt="" class="my_background">
             <div class="image green">
                 <img src="../../assets/img/short-slider-rev-1-img-1.png" alt="">
             </div>
@@ -46,16 +46,33 @@ export default {
 
         > * {
             position: relative;
-            
-            > img {
-                width: 550px;
+            // width: 100%;
+
+            // > img {
+            //     width: 90%;
+            // }
+
+            .my_background {
+                width: 500px;
+
+                @media (max-width: 1500px) {
+                    width: 400px;
+                }
             }
+            
         }
 
         .image {
 
             .image {
                 position: absolute;
+
+                @media (max-width: 1500px) {
+                    transform: scale(0.8);
+                }
+
+
+                
             }
         }
 
@@ -75,6 +92,10 @@ export default {
             .green-big {
                 bottom: 35px;
                 right: -130px;
+
+                @media (max-width: 1500px) {
+                    bottom: 25px;
+                }
             }
 
             .brown {
@@ -85,11 +106,19 @@ export default {
             .pink-l {
                 left: -90px;
                 bottom: 260px;
+
+                @media (max-width: 1500px) {
+                    bottom: 220px;
+                }
             }
 
             .pink-r {
                 right: -80px;
                 bottom: 260px;
+
+                @media (max-width: 1500px) {
+                    bottom: 220px;
+                }
             }
 
             .violet {
@@ -101,6 +130,7 @@ export default {
                 top: 40px;
                 right: -120px;
                 z-index: 10;
+
             }
 
             .cloud-green {

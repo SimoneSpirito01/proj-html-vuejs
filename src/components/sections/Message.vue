@@ -1,8 +1,10 @@
 <template>
     <section>
-        <h2>Want to work with us? Send us <span>a message!</span></h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nemo incidunt, labore ea officiis similique molestias voluptas at delectus amet fuga aperiam quam expedita quisquam? Sapiente perspiciatis assumenda et commodi fuga vel aut!</p>
-        <button>Contact</button>
+        <div class="my_container">
+            <h2>Want to work with us? Send us <span>a message!</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nemo incidunt, labore ea officiis similique molestias voluptas at delectus amet fuga aperiam quam expedita quisquam? Sapiente perspiciatis assumenda et commodi fuga vel aut!</p>
+            <button>Contact</button>
+        </div>
     </section>
 </template>
 
@@ -14,16 +16,18 @@ export default {
 
 <style lang="scss" scoped>
 
-    section {
-        background-image: url('../../assets/img/h-2-background-1.jpg');
-        background-size: cover;
-        background-position: center;
-        padding: 150px 320px 100px;
-        text-align: center;
+section {
+    background-image: url('../../assets/img/h-2-background-1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0 100px;
+    text-align: center;
+
+    .my_container {
 
         h2 {
             font-size: 60px;
-            margin-bottom: 40px;
+            margin-bottom: 25px;
 
             span {
                 font-weight: bold;
@@ -48,5 +52,7 @@ export default {
             border: none;
         }
     }
+
+}
 
 </style>

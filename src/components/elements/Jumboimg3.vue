@@ -43,10 +43,20 @@ export default {
 
         > * {
             position: relative;
-            
-            > .my_background {
+            // width: 100%;
+
+            // .my_background {
+            //     width: 80%;
+            // }
+
+            .my_background {
                 width: 380px;
+
+                @media (max-width: 1500px) {
+                    width: 253px;
+                }
             }
+
         }
             
         .girl {

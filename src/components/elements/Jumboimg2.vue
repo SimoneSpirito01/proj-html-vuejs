@@ -1,7 +1,7 @@
 <template>
     <div class="right">
         <div class="image couple">
-            <img src="../../assets/img/h-2-slider-img-11.png" alt="">
+            <img src="../../assets/img/h-2-slider-img-11.png" alt="" class="my_background">
             <div class="image green">
                 <img src="../../assets/img/h-2-slider-img-13.png" alt="">
             </div>
@@ -35,10 +35,23 @@ export default {
 
         > * {
             position: relative;
+            // width: 100%;
             
-            > img {
+            // > img {
+            //     width: 100%;
+            // }
+
+            .my_background {
                 width: 800px;
+
+                @media (max-width: 1500px) {
+                    width: 550px;
+                }
+
             }
+
+
+         
         }
 
         .image {
