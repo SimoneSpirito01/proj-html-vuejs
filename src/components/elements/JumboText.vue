@@ -65,6 +65,10 @@ export default {
             background-color: white;
             padding: 17px 35px;
             border: 3px solid #e1c0b0;
+
+            &:hover {
+                background-color: #e1c0b0;
+            }
         }
     }
 

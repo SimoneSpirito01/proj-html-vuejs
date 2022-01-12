@@ -75,6 +75,7 @@ export default {
         display: flex;
         justify-content: space-between;
         margin-top: 30px;
+        overflow-x: hidden;
 
         @media (max-width: 1500px) {
             margin-top: 70px;

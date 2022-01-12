@@ -50,6 +50,10 @@ section {
             background-color: #d8f0e3;
             padding: 17px 60px;
             border: none;
+
+            &:hover {
+                background-color: #e1c0b0;
+            }
         }
     }
 
